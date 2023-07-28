@@ -218,7 +218,26 @@ img {
 }
 
 /* =====> ABOUT */
+.about__content {
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  font-size: 70px;
+  font-weight: bold;
+}
 
+.logo {
+  color: hsl(207, 90%, 72%);
+  transition: .4s;
+}
+
+.logo:hover {
+  color: hsl(207, 90%, 50%);
+  text-shadow: 0 0 16px hsl(207, 90%, 50%);
+  transform: translate(20px);
+}
 
 /* =====> SKILLS */
 
